@@ -28,8 +28,7 @@ services:
             - 24424:80
         environment:
             - BASE_URL=":80"
-        restart: unless-stopped
-		
+		restart: unless-stopped		
 volumes:
 	chibisafe_database:
 	chibisafe_uploads:
