@@ -33,6 +33,6 @@ services:
 volumes:
 	chibisafe_database:
 	chibisafe_uploads:
-    chibisafe_logs:
-    caddy_file:
-    caddy_uploads:
+	chibisafe_logs:
+	caddy_file:
+	caddy_uploads:
