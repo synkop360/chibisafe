@@ -22,8 +22,8 @@ services:
     caddy:
         image: caddy:2-alpine
         volumes:
-            - ./Caddyfile:/etc/caddy/Caddyfile:ro
-            - ./uploads:/app/uploads:ro
+            - /var/lib/docker/volumes/Caddyfile:/etc/caddy/Caddyfile:ro
+            - /var/lib/docker/volumes/uploads:/app/uploads:ro
         ports:
             - 24424:80
         environment:
