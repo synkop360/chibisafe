@@ -29,3 +29,10 @@ services:
         environment:
             - BASE_URL=":80"
         restart: unless-stopped
+		
+volumes:
+	chibisafe_database:
+	chibisafe_uploads:
+    chibisafe_logs:
+	Caddyfile:
+ 	Caddy_uploads:
